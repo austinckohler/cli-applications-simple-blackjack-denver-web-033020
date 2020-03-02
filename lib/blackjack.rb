@@ -22,8 +22,8 @@ def end_game(get_user_input)
   puts "Sorry, you hit #{get_user_input}. Thanks for playing!"
 end
 
-def initial_round
-  # code #initial_round here
+def initial_round(deal_card, number)
+  return "#{deal_card * 2} = #{number}"
 end
 
 def hit?

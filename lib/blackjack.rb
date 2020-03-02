@@ -28,8 +28,9 @@ def initial_round
   total
 end
 
-def hit?
+def hit?(prompt_user, get_user_input)
  prompt_user
+ get_user_input
   
 end
 

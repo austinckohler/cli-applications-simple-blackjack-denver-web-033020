@@ -29,7 +29,8 @@ def initial_round
 end
 
 def hit?
-  # code hit? here
+  "Please enter a valid command"
+  hit?
 end
 
 def invalid_command

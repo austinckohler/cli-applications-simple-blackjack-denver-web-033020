@@ -3,7 +3,9 @@ def welcome
 end
 
 def deal_card
-  total = rand(1..11)
+  card = rand(1..11)
+  puts "Your new card is #{card}"
+  card
 end
 
 def display_card_total(total)

@@ -23,7 +23,7 @@ def end_game(get_user_input)
 end
 
 def initial_round(deal_card, number)
-  return "#{deal_card * 2} = #{number}"
+  puts "#{deal_card * 2} = #{number}"
 end
 
 def hit?

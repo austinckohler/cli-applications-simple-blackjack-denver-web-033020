@@ -43,7 +43,7 @@ elsif user_input=="s"
 else
 invalid_command
 prompt_user
-current_total
+get_user_input
 end
 end
 

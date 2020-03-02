@@ -37,9 +37,10 @@ def hit?(total)
      total
    else
      invalid_command
+     total
    end
 end
-total
+
 
 def invalid_command
    puts "Please enter a valid command"

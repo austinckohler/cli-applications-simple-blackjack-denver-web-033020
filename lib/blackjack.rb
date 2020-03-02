@@ -29,7 +29,7 @@ def initial_round
 end
 
 def hit?
- 
+ prompt_user
   
 end
 

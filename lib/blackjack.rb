@@ -36,9 +36,6 @@ def hit?(total)
   elsif answer == "h"
     deal_card + total
   end
-  if answer == nil 
-    invalid_command
-end
 end
 
 def invalid_command

@@ -35,6 +35,8 @@ def hit?(total)
     total
   elsif answer == "h"
     deal_card + total
+  else
+    
   end
 end
 

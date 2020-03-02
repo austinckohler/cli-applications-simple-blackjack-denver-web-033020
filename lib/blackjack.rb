@@ -22,8 +22,9 @@ def end_game(get_user_input)
   puts "Sorry, you hit #{get_user_input}. Thanks for playing!"
 end
 
-def initial_round(deal_card, number)
-  puts "#{deal_card * 2} = #{number}"
+def initial_round
+  total = deal_card + number  
+  puts total
 end
 
 def hit?

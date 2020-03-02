@@ -29,7 +29,7 @@ def initial_round
 end
 
 def hit?
-  "Please enter a valid command"
+  puts "Please enter a valid command"
   hit?
 end
 

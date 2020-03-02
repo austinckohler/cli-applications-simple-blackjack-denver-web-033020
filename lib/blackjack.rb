@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  card = rand(1..11)
+  total = rand(1..11)
 end
 
 def display_card_total(total)
@@ -30,7 +30,7 @@ end
 
 def hit?(total)
   prompt_user
-  user_input = prompt_user
+  user_input = get_user_input
   if user_input == "h"
      total += deal_card
    elsif user_input == "s"

@@ -45,6 +45,7 @@ invalid_command
 prompt_user
 current_total
 end
+end
 
 
 def invalid_command
